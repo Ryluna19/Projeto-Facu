@@ -1,0 +1,17 @@
+Coisas Para Se Certificar 
+
+1* - Veja se no banco esta criado a tanto o banco (banco_restaurante) quando a table de pedidos , caso não segue a criação 
+CREATE TABLE pedidos (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100),
+    telefone VARCHAR(15),
+    email VARCHAR(100),
+    pedidos TEXT,
+    observacao TEXT,
+    desconto DECIMAL(10, 2),
+    valor_final DECIMAL(10, 2),
+    data_hora TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+2* Certifiquece que o arquivo esta sendo aberto atravez da pasta do xamp no htdocs  
+   o caminho deve ser parcido a esse 
+   http://localhost/CCCC/Restaurante_Facu/formulario.html
