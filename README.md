@@ -8,7 +8,10 @@
 
 
 <p align="center">
-  <img alt="Preview" src=".github/Preview.png" width="100%">
+  <img alt="Preview Main" src=".github/Preview.png" width="100%">
+</p>
+<p align="center">
+  <img alt="Preview Pedir" src=".github/Pedir.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
